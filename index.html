@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Mingguan Bryan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- =================== HEADER =================== -->
+  <header class="glass-header">
+    <h1>📚 Jadwal Kuliah Bryan</h1>
+    <div id="clock"></div>
+  </header>
+
+  <!-- =================== MAIN CONTENT =================== -->
+  <main>
+    <!-- Progress Mingguan -->
+    <section class="progress-section">
+      <p id="progressText">Progress Minggu Ini: 0%</p>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </section>
+
+    <!-- Tombol Aksi -->
+    <div class="top-buttons">
+      <button id="btnToday">Hari Ini</button>
+      <button id="btnReset">Reset Progress</button>
+    </div>
+
+    <!-- Daftar Minggu -->
+    <div id="mingguContainer"></div>
+
+    <!-- Jadwal Mingguan -->
+    <div id="jadwalMinggu"></div>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <p>© 2025 Bryan Prathama Selbi</p>
+  </footer>
+
+  <!-- =================== SCRIPT =================== -->
+  <script src="script.js"></script>
+</body>
+</html>
