@@ -9,7 +9,6 @@ const jadwalMingguan = {
   "Minggu 7": ["Kerja Praktek – Pert. 7","Teknologi Internet of Things – Pert. 7","Basis Data II – Pert. 10","Mobile Programming – Pert. 10"],
   "Minggu 8": ["Sistem Penunjang Keputusan – Pert. 8","Teknik Kompilasi – Pert. 8","Pemrograman II – Pert. 11-12","Rekayasa Perangkat Lunak – Pert. 11-12","Mobile Programing – Pert. 12","Basis Data II – Pert. 12"],
   "Minggu 9": ["Sistem Penunjang Keputusan – Pert. 9","Teknik Kompilasi – Pert. 9","Pemrograman II – Pert. 13","Rekayasa Perangkat Lunak - Pert. 13 "],
-  
   "Minggu 10": ["Sistem Penunjang Keputusan – Pert. 10","Teknik Kompilasi – Pert. 10","Pemrograman II – Pert. 14-15","Rekayasa Perangkat Lunak – Pert. 14-15","Mobile Programing – Pert. 15","Basis Data II – Pert. 15"],
   "Minggu 11": ["Sistem Penunjang Keputusan – Pert. 11","Teknik Kompilasi – Pert. 11","Pemrograman II – Pert. 16","Rekayasa Perangkat Lunak - Pert. 16 "],
   "Minggu 12": ["Sistem Penunjang Keputusan – Pert. 12","Teknik Kompilasi – Pert. 12","Pemrograman II – Pert. 17-18","Rekayasa Perangkat Lunak – Pert. 17-18","Mobile Programing – Pert. 18","Basis Data II – Pert. 18"],
@@ -143,4 +142,5 @@ btnReset.addEventListener("click", () => {
   tampilkanJadwal(Object.keys(jadwalMingguan)[mingguKe]);
   alert("Progress berhasil di-reset!");
 });
+
 
