@@ -62,7 +62,7 @@ Object.keys(jadwalMingguan).forEach((minggu, index) => {
 const tanggalMulai = new Date("2025-09-08");
 const hariIni = new Date();
 const selisihHari = Math.floor((hariIni - tanggalMulai) / (1000*60*60*24));
-let mingguKe = Math.floor(selisihHari / 7);
+let mingguKe = Math.ceil(selisihHari / 7) - 1;
 if(mingguKe > 13) mingguKe = 13;
 if(mingguKe < 0) mingguKe = 0;
 
@@ -142,5 +142,6 @@ btnReset.addEventListener("click", () => {
   tampilkanJadwal(Object.keys(jadwalMingguan)[mingguKe]);
   alert("Progress berhasil di-reset!");
 });
+
 
 
