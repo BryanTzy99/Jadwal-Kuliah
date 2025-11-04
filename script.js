@@ -8,13 +8,13 @@ const jadwalMingguan = {
   "Minggu 6": ["Kerja Praktek – Pert. 6","Teknologi Internet of Things – Pert. 6","Basis Data II – Pert. 8-9","Mobile Programming – Pert. 8-9","Rekayasa Perangkat Lunak – Pert. 9","Pemrograman II – Pert. 9"],
   "Minggu 7": ["Kerja Praktek – Pert. 7","Teknologi Internet of Things – Pert. 7","Basis Data II – Pert. 10","Mobile Programming – Pert. 10"],
   "Minggu UAS": ["Sistem Penunjang Keputusan","Teknik Kompilasi","Pemrograman II","Rekayasa Perangkat Lunak"],
-  "Minggu 8": ["Sistem Penunjang Keputusan – Pert. 8","Teknik Kompilasi – Pert. 8","Pemrograman II – Pert. 11-12","Rekayasa Perangkat Lunak – Pert. 11-12","Mobile Programming – Pert. 12","Basis Data II – Pert. 12"],
-  "Minggu 9": ["Sistem Penunjang Keputusan – Pert. 9","Teknik Kompilasi – Pert. 9","Pemrograman II – Pert. 13","Rekayasa Perangkat Lunak - Pert. 13"],
-  "Minggu 10": ["Sistem Penunjang Keputusan – Pert. 10","Teknik Kompilasi – Pert. 10","Pemrograman II – Pert. 14-15","Rekayasa Perangkat Lunak – Pert. 14-15","Mobile Programming – Pert. 15","Basis Data II – Pert. 15"],
-  "Minggu 11": ["Sistem Penunjang Keputusan – Pert. 11","Teknik Kompilasi – Pert. 11","Pemrograman II – Pert. 16","Rekayasa Perangkat Lunak - Pert. 16"],
-  "Minggu 12": ["Sistem Penunjang Keputusan – Pert. 12","Teknik Kompilasi – Pert. 12","Pemrograman II – Pert. 17-18","Rekayasa Perangkat Lunak – Pert. 17-18","Mobile Programming – Pert. 18","Basis Data II – Pert. 18"],
-  "Minggu 13": ["Sistem Penunjang Keputusan – Pert. 13","Teknik Kompilasi – Pert. 13","Pemrograman II – Pert. 19","Rekayasa Perangkat Lunak - Pert. 19"],
-  "Minggu 14": ["Sistem Penunjang Keputusan – Pert. 14","Teknik Kompilasi – Pert. 14","Pemrograman II – Pert. 20-21","Rekayasa Perangkat Lunak – Pert. 20-21","Mobile Programming – Pert. 21","Basis Data II – Pert. 21"],
+  "Minggu 9": ["Sistem Penunjang Keputusan – Pert. 8","Teknik Kompilasi – Pert. 8","Pemrograman II – Pert. 11-12","Rekayasa Perangkat Lunak – Pert. 11-12","Mobile Programming – Pert. 12","Basis Data II – Pert. 12"],
+  "Minggu 10": ["Sistem Penunjang Keputusan – Pert. 9","Teknik Kompilasi – Pert. 9","Pemrograman II – Pert. 13","Rekayasa Perangkat Lunak - Pert. 13"],
+  "Minggu 11": ["Sistem Penunjang Keputusan – Pert. 10","Teknik Kompilasi – Pert. 10","Pemrograman II – Pert. 14-15","Rekayasa Perangkat Lunak – Pert. 14-15","Mobile Programming – Pert. 15","Basis Data II – Pert. 15"],
+  "Minggu 12": ["Sistem Penunjang Keputusan – Pert. 11","Teknik Kompilasi – Pert. 11","Pemrograman II – Pert. 16","Rekayasa Perangkat Lunak - Pert. 16"],
+  "Minggu 13": ["Sistem Penunjang Keputusan – Pert. 12","Teknik Kompilasi – Pert. 12","Pemrograman II – Pert. 17-18","Rekayasa Perangkat Lunak – Pert. 17-18","Mobile Programming – Pert. 18","Basis Data II – Pert. 18"],
+  "Minggu 14": ["Sistem Penunjang Keputusan – Pert. 13","Teknik Kompilasi – Pert. 13","Pemrograman II – Pert. 19","Rekayasa Perangkat Lunak - Pert. 19"],
+  "Minggu 15": ["Sistem Penunjang Keputusan – Pert. 14","Teknik Kompilasi – Pert. 14","Pemrograman II – Pert. 20-21","Rekayasa Perangkat Lunak – Pert. 20-21","Mobile Programming – Pert. 21","Basis Data II – Pert. 21"],
 };
 
 // ===================== DOM ELEMENTS =====================
@@ -146,3 +146,4 @@ btnReset.addEventListener("click", () => {
   tampilkanJadwal(mingguKeys[getMingguIndexHariIni()]);
   alert("Progress berhasil di-reset!");
 });
+
