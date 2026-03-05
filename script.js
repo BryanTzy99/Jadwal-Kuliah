@@ -1,20 +1,21 @@
 // ===================== DATA JADWAL =====================
 const jadwalMingguan = {
-  "Minggu 1": ["Kerja Praktek – Pert. 1","Teknologi Internet of Things – Pert. 1","Basis Data II – Pert. 1","Mobile Programming – Pert. 1"],
-  "Minggu 2": ["Kerja Praktek – Pert. 2","Teknologi Internet of Things – Pert. 2","Basis Data II – Pert. 2-3","Mobile Programming – Pert. 2-3","Rekayasa Perangkat Lunak – Pert. 3","Pemrograman II – Pert. 3"],
-  "Minggu 3": ["Kerja Praktek – Pert. 3","Teknologi Internet of Things – Pert. 3","Basis Data II – Pert. 4","Mobile Programming – Pert. 4"],
-  "Minggu 4": ["Kerja Praktek – Pert. 4","Teknologi Internet of Things – Pert. 4","Basis Data II – Pert. 5-6","Mobile Programming – Pert. 5-6","Rekayasa Perangkat Lunak – Pert. 6","Pemrograman II – Pert. 6"],
-  "Minggu 5": ["Kerja Praktek – Pert. 5","Teknologi Internet of Things – Pert. 5","Basis Data II – Pert. 7","Mobile Programming – Pert. 7"],
-  "Minggu 6": ["Kerja Praktek – Pert. 6","Teknologi Internet of Things – Pert. 6","Basis Data II – Pert. 8-9","Mobile Programming – Pert. 8-9","Rekayasa Perangkat Lunak – Pert. 9","Pemrograman II – Pert. 9"],
-  "Minggu 7": ["Kerja Praktek – Pert. 7","Teknologi Internet of Things – Pert. 7","Basis Data II – Pert. 10","Mobile Programming – Pert. 10"],
-  "Minggu UAS": ["Sistem Penunjang Keputusan","Teknik Kompilasi","Pemrograman II","Rekayasa Perangkat Lunak"],
-  "Minggu 9": ["Sistem Penunjang Keputusan – Pert. 8","Teknik Kompilasi – Pert. 8","Pemrograman II – Pert. 11-12","Rekayasa Perangkat Lunak – Pert. 11-12","Mobile Programming – Pert. 12","Basis Data II – Pert. 12"],
-  "Minggu 10": ["Sistem Penunjang Keputusan – Pert. 9","Teknik Kompilasi – Pert. 9","Pemrograman II – Pert. 13","Rekayasa Perangkat Lunak - Pert. 13"],
-  "Minggu 11": ["Sistem Penunjang Keputusan – Pert. 10","Teknik Kompilasi – Pert. 10","Pemrograman II – Pert. 14-15","Rekayasa Perangkat Lunak – Pert. 14-15","Mobile Programming – Pert. 15","Basis Data II – Pert. 15"],
-  "Minggu 12": ["Sistem Penunjang Keputusan – Pert. 11","Teknik Kompilasi – Pert. 11","Pemrograman II – Pert. 16","Rekayasa Perangkat Lunak - Pert. 16"],
-  "Minggu 13": ["Sistem Penunjang Keputusan – Pert. 12","Teknik Kompilasi – Pert. 12","Pemrograman II – Pert. 17-18","Rekayasa Perangkat Lunak – Pert. 17-18","Mobile Programming – Pert. 18","Basis Data II – Pert. 18"],
-  "Minggu 14": ["Sistem Penunjang Keputusan – Pert. 13","Teknik Kompilasi – Pert. 13","Pemrograman II – Pert. 19","Rekayasa Perangkat Lunak - Pert. 19"],
-  "Minggu 15": ["Sistem Penunjang Keputusan – Pert. 14","Teknik Kompilasi – Pert. 14","Pemrograman II – Pert. 20-21","Rekayasa Perangkat Lunak – Pert. 20-21","Mobile Programming – Pert. 21","Basis Data II – Pert. 21"],
+  "Minggu 1": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 1","TESTING DAN QA PERANGKAT LUNAK – Pert. 1","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 1","ETIKA PROFESI – Pert. 1"],
+  "Minggu 2": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 2","TESTING DAN QA PERANGKAT LUNAK – Pert. 2","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 2-3","ETIKA PROFESI – Pert. 2","PEMROGRAMAN WEB II – Pert. 3"],
+  "Minggu 3": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 3","TESTING DAN QA PERANGKAT LUNAK – Pert. 3","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 4","ETIKA PROFESI – Pert. 3"],
+  "Minggu 4": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 4","TESTING DAN QA PERANGKAT LUNAK – Pert. 4","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 5-6","ETIKA PROFESI – Pert. 4","PEMROGRAMAN WEB II – Pert. 6"],
+  "Minggu 5": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 5","TESTING DAN QA PERANGKAT LUNAK – Pert. 5","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 7","ETIKA PROFESI – Pert. 5"],
+  "Minggu 6": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 6","TESTING DAN QA PERANGKAT LUNAK – Pert. 6","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 8-9","ETIKA PROFESI – Pert. 6","PEMROGRAMAN WEB II – Pert. 9"],
+  "Minggu 7": ["MANAJEMEN PROYEK INFORMATIKA – Pert. 7","TESTING DAN QA PERANGKAT LUNAK – Pert. 7","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 10","ETIKA PROFESI – Pert. 7"],
+  "Minggu UTS": ["MANAJEMEN PROYEK INFORMATIKA","TESTING DAN QA PERANGKAT LUNAK","ARSITEKTUR DAN ORGANISASI KOMPUTER ","ETIKA PROFESI"],
+  "Minggu 9": ["JARINGAN NIRKABEL – Pert. 8","KEAMANAN KOMPUTER – Pert. 8","KECAKAPAN ANTAR PERSONAL – Pert. 8","PEMROGRAMAN WEB II – Pert. 11-12","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 12"],
+  "Minggu 10": ["JARINGAN NIRKABEL – Pert. 9","KEAMANAN KOMPUTER – Pert. 9","KECAKAPAN ANTAR PERSONAL – Pert. 9","PEMROGRAMAN WEB II - Pert. 13"],
+  "Minggu 11": ["JARINGAN NIRKABEL – Pert. 10","KEAMANAN KOMPUTER – Pert. 10","KECAKAPAN ANTAR PERSONAL – Pert. 10","PEMROGRAMAN WEB II – Pert. 14-15","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 15"],
+  "Minggu 12": ["JARINGAN NIRKABEL – Pert. 11","KEAMANAN KOMPUTER – Pert. 11","KECAKAPAN ANTAR PERSONAL – Pert. 11","PEMROGRAMAN WEB II - Pert. 16"],
+  "Minggu 13": ["JARINGAN NIRKABEL – Pert. 12","KEAMANAN KOMPUTER – Pert. 12","KECAKAPAN ANTAR PERSONAL – Pert. 12","PEMROGRAMAN WEB II – Pert. 17-18","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 18"],
+  "Minggu 14": ["JARINGAN NIRKABEL – Pert. 13","KEAMANAN KOMPUTER – Pert. 13","KECAKAPAN ANTAR PERSONAL – Pert. 13","PEMROGRAMAN WEB II - Pert. 19"],
+  "Minggu 15": ["JARINGAN NIRKABEL – Pert. 14","KEAMANAN KOMPUTER – Pert. 14","KECAKAPAN ANTAR PERSONAL – Pert. 14","PEMROGRAMAN WEB II – Pert. 20-21","ARSITEKTUR DAN ORGANISASI KOMPUTER – Pert. 21"],
+  "Minggu UAS": ["JARINGAN NIRKABEL","KEAMANAN KOMPUTER","KECAKAPAN ANTAR PERSONAL ","ETIKA PROFESI"],
 };
 
 // ===================== DOM ELEMENTS =====================
@@ -146,4 +147,5 @@ btnReset.addEventListener("click", () => {
   tampilkanJadwal(mingguKeys[getMingguIndexHariIni()]);
   alert("Progress berhasil di-reset!");
 });
+
 
