@@ -61,7 +61,7 @@ mingguKeys.forEach((minggu, index) => {
 });
 
 // ===================== HITUNG MINGGU SEKARANG =====================
-const tanggalMulai = new Date("2025-09-08");
+const tanggalMulai = new Date("2026-03-02");
 function getMingguIndexHariIni() {
   const hariIni = new Date();
   const selisihHari = Math.floor((hariIni - tanggalMulai) / (1000*60*60*24));
@@ -147,5 +147,6 @@ btnReset.addEventListener("click", () => {
   tampilkanJadwal(mingguKeys[getMingguIndexHariIni()]);
   alert("Progress berhasil di-reset!");
 });
+
 
 
